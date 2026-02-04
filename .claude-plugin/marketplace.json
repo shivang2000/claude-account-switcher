@@ -1,17 +1,21 @@
 {
   "name": "claude-account-switcher",
-  "description": "Plugin marketplace for Claude Account Switcher",
+  "owner": {
+    "name": "shivang2000",
+    "url": "https://github.com/shivang2000"
+  },
   "plugins": [
     {
       "name": "account-switcher",
+      "source": "../account-switcher",
       "description": "Switch between multiple Claude Pro accounts to extend usage capacity",
       "version": "1.0.0",
-      "source": "../account-switcher",
       "author": {
         "name": "shivang2000"
       },
-      "keywords": ["account", "switch", "credentials", "multi-account"],
-      "license": "MIT"
+      "repository": "https://github.com/shivang2000/claude-account-switcher",
+      "license": "MIT",
+      "keywords": ["account", "switch", "credentials", "multi-account"]
     }
   ]
 }
