@@ -6,7 +6,7 @@
       "name": "account-switcher",
       "description": "Switch between multiple Claude Pro accounts to extend usage capacity",
       "version": "1.0.0",
-      "source": "./account-switcher",
+      "source": "../account-switcher",
       "author": {
         "name": "shivang2000"
       },

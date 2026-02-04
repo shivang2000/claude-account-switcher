@@ -3,7 +3,7 @@ name: rename-account
 description: Rename an existing saved account
 argument-hint: <old-name> <new-name>
 disable-model-invocation: true
-allowed-tools: Read, Write, Bash(mv *), AskUserQuestion
+allowed-tools: ["Read", "Write", "Bash(mv *)", "AskUserQuestion"]
 ---
 
 # Rename Account

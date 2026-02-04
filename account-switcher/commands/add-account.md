@@ -3,7 +3,7 @@ name: add-account
 description: Save current Claude credentials as a named account
 argument-hint: <account-name>
 disable-model-invocation: true
-allowed-tools: Read, Write, Bash(mkdir *), Bash(chmod *), AskUserQuestion
+allowed-tools: ["Read", "Write", "Bash(mkdir *)", "Bash(chmod *)", "AskUserQuestion"]
 ---
 
 # Add Account - Save Current Credentials

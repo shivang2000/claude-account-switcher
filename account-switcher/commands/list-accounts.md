@@ -2,7 +2,7 @@
 name: list-accounts
 description: List all saved Claude accounts with status and expiration warnings
 disable-model-invocation: true
-allowed-tools: Read, Bash(ls *), Bash(date *)
+allowed-tools: ["Read", "Bash(ls *)", "Bash(date *)"]
 ---
 
 # List Saved Accounts

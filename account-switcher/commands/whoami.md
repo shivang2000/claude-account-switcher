@@ -2,7 +2,7 @@
 name: whoami
 description: Show which Claude account is currently active and token status
 disable-model-invocation: true
-allowed-tools: Read, Bash(date *)
+allowed-tools: ["Read", "Bash(date *)"]
 ---
 
 # Who Am I - Current Account Status

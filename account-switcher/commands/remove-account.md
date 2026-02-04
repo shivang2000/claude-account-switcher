@@ -3,7 +3,7 @@ name: remove-account
 description: Remove a saved Claude account
 argument-hint: <account-name>
 disable-model-invocation: true
-allowed-tools: Read, Write, Bash(rm *), AskUserQuestion
+allowed-tools: ["Read", "Write", "Bash(rm *)", "AskUserQuestion"]
 ---
 
 # Remove Account

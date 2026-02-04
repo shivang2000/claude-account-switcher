@@ -3,7 +3,7 @@ name: switch-account
 description: Switch to a different saved Claude account (requires restart)
 argument-hint: [account-name]
 disable-model-invocation: true
-allowed-tools: Read, Write, Bash(cp *), Bash(chmod *), Bash(date *), AskUserQuestion
+allowed-tools: ["Read", "Write", "Bash(cp *)", "Bash(chmod *)", "Bash(date *)", "AskUserQuestion"]
 ---
 
 # Switch Account
