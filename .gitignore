@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Editor
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Node (if any scripts added later)
+node_modules/
+
+# Environment
+.env
+.env.local
+.claude/

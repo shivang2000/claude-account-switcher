@@ -1,0 +1,9 @@
+{
+  "name": "account-switcher",
+  "version": "1.0.0",
+  "description": "Switch between multiple Claude accounts to extend usage capacity",
+  "author": {
+    "name": "shivang2000"
+  },
+  "repository": "https://github.com/shivang2000/claude-account-switcher"
+}
