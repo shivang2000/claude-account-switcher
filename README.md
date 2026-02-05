@@ -2,9 +2,20 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A Claude Code plugin to switch between multiple Claude Pro accounts and extend your usage capacity.
+Switch between multiple Claude Pro accounts and extend your usage capacity.
 
-## Quick Install
+## Two Options
+
+| | Claude Code Plugin | Rust CLI |
+|---|---|---|
+| **Install** | `/plugin` → Add marketplace | `cargo install --path claude-switch` |
+| **Speed** | 3-5 seconds | ~10ms |
+| **Token cost** | ~500 tokens | **0** |
+| **Works offline** | No | Yes |
+
+## Option 1: Claude Code Plugin
+
+### Install
 
 1. Run `/plugin` in Claude Code
 2. Go to **Marketplaces** → **Add Marketplace**
@@ -12,20 +23,34 @@ A Claude Code plugin to switch between multiple Claude Pro accounts and extend y
 4. Go to **Discover** → Install **account-switcher**
 5. Restart Claude Code
 
-## Usage
+### Usage
 
 ```bash
-# Save current account
 /account-switcher:add-account work
-
-# List all accounts
 /account-switcher:list-accounts
-
-# Switch accounts (then restart Claude Code)
 /account-switcher:switch-account personal
-
-# Check current account
 /account-switcher:whoami
+```
+
+## Option 2: Rust CLI (Recommended)
+
+Zero token usage, instant execution.
+
+### Install
+
+```bash
+git clone https://github.com/shivang2000/claude-account-switcher
+cd claude-account-switcher/claude-switch
+cargo install --path .
+```
+
+### Usage
+
+```bash
+claude-switch add work
+claude-switch list
+claude-switch use personal
+claude-switch current
 ```
 
 ## Why?
@@ -44,7 +69,8 @@ Instead of paying $100-200 for higher usage tiers, use multiple $20 Pro subscrip
 
 ## Documentation
 
-See [account-switcher/README.md](./account-switcher/README.md) for full documentation.
+- [Plugin Documentation](./account-switcher/README.md)
+- [CLI Documentation](./claude-switch/README.md)
 
 ## License
 
